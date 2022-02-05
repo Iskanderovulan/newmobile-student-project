@@ -1,0 +1,34 @@
+.mobile-btn{
+    width: 55px;
+    height: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-btn span{
+    width:100%;
+    height: 3px;
+    background:#FF1493 ;
+    display: inline-block;
+    position: relative;
+}
+
+.mobile-btn span:before,
+.mobile-btn span:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FF1493;
+    transition: .5s;
+}
+.mobile-btn span:before{
+    top:-13px;
+}
+
+.mobile-btn span:after{
+    top:13px;
+}
+
+
